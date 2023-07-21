@@ -25,3 +25,7 @@ height: var(--app-height); */
     /* padding-left: 16px; */
     padding-top: 88px;
 }
+
+.sidebar_wrap :first-child{
+color: white
+}
