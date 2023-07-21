@@ -1,0 +1,44 @@
+@import '../../App.css';
+
+.sidebar_item{
+    color: var(--sidebar-color-2);
+    /* height: 44px; */
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar_item:focus{
+    color: var(--sidebar-color-1);
+
+}
+
+.sidebar_item:hover{
+    color: var(--sidebar-color-1);
+background-color: var(--sidebar-background-color-2);
+}
+
+a {
+    color: var(--sidebar-color-2);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--sidebar-color-1);
+    text-decoration: none;
+    background-color: var(--sidebar-background-color-2);
+
+}
+
+a{
+    height: 44px;
+    padding: 11px  71px 14px 16px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* border-top: 1px solid var(--sidebar-color-2); */
+    border-bottom: 1px solid var(--sidebar-color-2);
+}

@@ -1,0 +1,28 @@
+@import '../../App.css';
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px;
+}
+
+/* .content_column{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+.strong .column{
+    font-size: var(--main-font-size-1);
+}
+
+.image_content_column{
+    width: 128px;
+height: 128px;
+flex-shrink: 0;
+float: left;
+margin-right: 16px;
+}
